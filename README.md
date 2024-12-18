@@ -16,3 +16,16 @@ python convertTMjsontotxt.py talkmoves/test.json talkmoves/test.txt 37
 bash test_talkmove.sh
 ```
 
+## For correction module
+
+```
+python CorrectionModuleQAtrain.py
+python CorrectionModuleQAtest.py
+```
+
+## For RGCN
+
+```
+python preprocessing.py
+python RGCN.py
+```
